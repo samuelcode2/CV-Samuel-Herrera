@@ -1,0 +1,51 @@
+/* Fuente general limpia y profesional */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #fff;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Nombre destacado */
+.nombre {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+/* Título profesional */
+.titulo {
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Descripción o resumen */
+.descripcion {
+  font-size: 16px;
+  font-style: normal;
+  color: #333;
+}
+.box {
+  max-width: 600px;   /* Limita el ancho máximo */
+  margin: 50 auto;     /* Centra horizontalmente */
+  padding: 20px;      /* Espaciado interno */
+  background-color: #f8a7a7; /* Color de fondo suave */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  text-align: justify; /* ✅ Esto justifica el texto dentro */
+}
+.box2 { 
+  max-width: 600px;   /* Limita el ancho máximo */
+  margin-left: 0%;
+  padding: 20px;      /* Espaciado interno */
+  background-color: #0c8aff; /* Color de fondo suave */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  text-align: justify; /* ✅ Esto justifica el texto dentro */
+}
