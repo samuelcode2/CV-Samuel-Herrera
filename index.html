@@ -1,60 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
-	<title>CV Samuel Herrera</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Samuel Herrera</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Estilo para la fuente del CV */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Un gris claro para el fondo */
+        }
+    </style>
 </head>
-<body>
-	<header>
-	  <h1 class="nombre">Samuel Herrera</h1>
-	  <p>Mail: samuelherrera.hys@gmail.com | Cel: 1137837227 </p>
-	  <p>LinkedIn: <a href="https://www.linkedin.com/in/samuel-herrera-9830991b2/" target="_blank">Samuel Herrera</a></p>
+<body class="p-4 md:p-10">
+    <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-2xl overflow-hidden">
+        <header class="bg-indigo-600 text-white p-8 sm:p-12 text-center rounded-t-2xl">
+            <div class="flex flex-col items-center">
+                <img src="https://placehold.co/128x128/ffffff/000000?text=SH" alt="Foto de Perfil" class="w-32 h-32 rounded-full border-4 border-white mb-4">
+                <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-2">Samuel Herrera</h1>
+                <p class="text-lg opacity-90">Analista de Sistemas & Profesional en Higiene y Seguridad</p>
+                <div class="mt-4 flex flex-col sm:flex-row sm:space-x-6 space-y-2 sm:space-y-0 text-sm">
+                    <a href="mailto:samuelherrera.hys@gmail.com" class="hover:underline flex items-center justify-center">
+                        <i class="fas fa-envelope mr-2"></i>Mail: samuelherrera.hys@gmail.com
+                    </a>
+                    <span class="flex items-center justify-center">
+                        <i class="fas fa-phone-alt mr-2"></i>Cel: 1137837227
+                    </span>
+                    <a href="https://www.linkedin.com/in/samuel-herrera-9830991b2/" target="_blank" class="hover:underline flex items-center justify-center">
+                        <i class="fab fa-linkedin mr-2"></i>LinkedIn: Samuel Herrera
+                    </a>
+                </div>
+            </div>
+        </header>
 
-    </header>
-    
-  <section>
-  <h2 class="titulo">Perfil Profesional</h2>
-  <div class="box">
-    <p class="descripcion">
-      Estudiante de segundo año de la carrera de Analista de Sistemas, con sólidos conocimientos en desarrollo web y programación. Manejo tecnologías como HTML, CSS, Java y C, y utilizo herramientas como Git, GitHub y Visual Studio Code para el control de versiones y la construcción de proyectos. Me considero una persona responsable, con gran capacidad de aprendizaje, proactiva y con fuerte interés en incorporarme al sector IT. Busco una oportunidad que me permita aplicar mis conocimientos, continuar aprendiendo y aportar valor a equipos de trabajo dinámicos y tecnológicos.
-    </p>
-  </div>
-</section>
+        <main class="p-6 sm:p-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="md:col-span-2">
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-indigo-600 mb-4 pb-2 border-b-2 border-indigo-200">
+                        Perfil Profesional <i class="fas fa-user-tie"></i>
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed text-justify">
+                        Estudiante de segundo año de la carrera de Analista de Sistemas, con sólidos conocimientos en desarrollo web y programación. Manejo tecnologías como HTML, CSS, Java y C, y utilizo herramientas como Git, GitHub y Visual Studio Code para el control de versiones y la construcción de proyectos. Me considero una persona responsable, con gran capacidad de aprendizaje, proactiva y con fuerte interés en incorporarme al sector IT. Busco una oportunidad que me permita aplicar mis conocimientos, continuar aprendiendo y aportar valor a equipos de trabajo dinámicos y tecnológicos.
+                    </p>
+                </section>
 
-    <section>
-    	<h2 class="titulo"> Perfil academico </h2>
-	
-    	<ul>
-			<div class="box2">
-    		     <li>Analista de Sistemas - Instituto Buen Viaje (2023 - Actualidad)</li>
-    		     <li>Graduado de licenciando en Higiene y Seguridad , Medio Ambiente - Universidad Nacionl de Lomas de Zamora</li>
-    		     <li>Tramo Pedagógico- Universidad FASTA</li>  
-		    </div> 		
-    	</ul> 
+                <section class="mb-8">
+                    <h2 class="text-2xl font-bold text-indigo-600 mb-4 pb-2 border-b-2 border-indigo-200">
+                        Proyectos <i class="fas fa-project-diagram"></i>
+                    </h2>
+                    <ul class="space-y-4">
+                        <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                            <p class="font-semibold text-gray-800 flex items-center">
+                                <i class="fas fa-briefcase text-indigo-500 mr-2"></i> Desarrollo de una pagina web para una Consultora
+                            </p>
+                            <p class="text-gray-600 text-sm italic">Pagina que ofrece gestiones profesionales de higiene y seguridad</p>
+                            <a href="https://mitz.com.ar/" target="_blank" class="text-indigo-500 hover:text-indigo-700 text-sm mt-2 block flex items-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Enlace al proyecto
+                            </a>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                            <p class="font-semibold text-gray-800 flex items-center">
+                                <i class="fas fa-cog text-indigo-500 mr-2"></i> Desarrollo de página web para una industria metalúrgica
+                            </p>
+                            <p class="text-gray-600 text-sm italic">Página que expone su catálogo de piezas.</p>
+                            <a href="https://poleasindustrialessh.com.ar/" target="_blank" class="text-indigo-500 hover:text-indigo-700 text-sm mt-2 block flex items-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> Enlace al proyecto
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
 
-    </section>
-    
-    <section>
-    	<h2 class="titulo">Habilidades Técnicas </h2>
-    	<ul>
-    		<li>HTML, CSS, JavaScript</li>
-    		<li>MySQL, Git y GitHub</li>
-    	</ul>
-    </section>
+            <div class="md:col-span-1">
+                <section class="mb-8">
+                    <h2 class="text-xl font-bold text-indigo-600 mb-4 pb-2 border-b-2 border-indigo-200">
+                        Habilidades Técnicas <i class="fas fa-code"></i>
+                    </h2>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-semibold">Lenguajes:</span> HTML, CSS, JavaScript, Java, C</li>
+                        <li><span class="font-semibold">Bases de Datos:</span> MySQL</li>
+                        <li><span class="font-semibold">Herramientas:</span> Git, GitHub, Visual Studio Code</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2 class="text-xl font-bold text-indigo-600 mb-4 pb-2 border-b-2 border-indigo-200">
+                        Perfil Académico <i class="fas fa-graduation-cap"></i>
+                    </h2>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                            <p class="font-semibold">Analista de Sistemas</p>
+                            <p class="text-sm">Instituto Buen Viaje (2023 - Actualidad)</p>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                            <p class="font-semibold">Licenciatura en Higiene y Seguridad</p>
+                            <p class="text-sm">Universidad Nacional de Lomas de Zamora</p>
+                        </li>
+                        <li class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                            <p class="font-semibold">Tramo Pedagógico</p>
+                            <p class="text-sm">Universidad FASTA</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
 
-    <section>
-        <h2 class="titulo">Proyectos</h2>
-        <p>Desarrollo de una página web de gestión de usuarios (proyecto académico).</p>
-		<p>Desarrolo de página web para una industria metalurgica en el que expone su catálogo de piezas;</p>
-		<p><a href="URL">https://poleasindustrialessh.com.ar/</a></p>
-    </section>
-
-    <footer>
-         <p>Última actualización: marzo 2025</p>
-    </footer>
-
-
+        <footer class="bg-gray-200 text-gray-600 p-4 text-center rounded-b-2xl">
+            <p class="text-sm">Última actualización: marzo 2025</p>
+        </footer>
+    </div>
 </body>
 </html>
